@@ -2,7 +2,7 @@
 
 class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         bool exit = false;
         while (!exit)
@@ -23,7 +23,7 @@ class Program
         }
     }
 
-    static void Task1()
+    private static void Task1()
     {
         Money m1 = new Money(500, 75);
         Console.WriteLine($"1. new Money(500, 75) => {m1}");
@@ -73,7 +73,7 @@ class Program
         }
         catch (Exception e)
         {
-            Console.WriteLine($"Исключение: {e.GetType().Name}");
+            Console.WriteLine($"Исключение: {e.GetType()}");
         }
 
         Money m7 = new Money(10, 5);
