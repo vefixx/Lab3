@@ -36,7 +36,7 @@ class Program
         }
         catch (Exception e)
         {
-            Console.WriteLine($"Исключение: {e.GetType()}");
+            Console.WriteLine($"Исключение");
         }
 
         Money m2 = m1.AddKopeks(50);
@@ -59,7 +59,7 @@ class Program
         }
         catch (Exception e)
         {
-            Console.WriteLine($"Исключение {e.GetType()}");
+            Console.WriteLine($"Исключение");
         }
 
         Money m6 = 60000 - m1;
@@ -90,7 +90,7 @@ class Program
         }
         catch (Exception e)
         {
-            Console.WriteLine($"Исключение: {e.GetType()}");
+            Console.WriteLine($"Исключение");
         }
 
         uint u = (uint)m1;
