@@ -30,6 +30,7 @@
 10. Вызвать `Solutions.TryReplaceFirstEntry`, вывести возвращенное значение, а при успехе еще и измененный список `l1` через `string.Join(", ", l1)`.
 
 ### Тестирование
+<img width="613" height="234" alt="image" src="https://github.com/user-attachments/assets/0e8adec7-4936-4d15-8de0-246d1bb3fa9f" />
 
 
 
@@ -61,6 +62,7 @@
 7. В `Program.cs` в методе `Task2()` считать строку чисел через пробел, сформировать `List<int>`, передать его в конструктор `LinkedList<int>`, вызвать `Solutions.SortAsc` и вывести отсортированный список через `string.Join(", ", list)`.
 
 ### Тестирование
+<img width="677" height="127" alt="image" src="https://github.com/user-attachments/assets/c1076c61-4057-4889-ba87-25c6ca5acfe6" />
 
 
 
@@ -96,6 +98,7 @@
 8. Вызвать `Solutions.AnalyzeGameSets` и вывести три полученных множества через `string.Join(", ", ...)`.
 
 ### Тестирование
+<img width="699" height="267" alt="image" src="https://github.com/user-attachments/assets/d5de0356-aa19-4e5d-af5c-cc51abcdefe9" />
 
 
 
@@ -127,6 +130,9 @@
 11. В `Program.cs` в методе `Task4()` запросить у пользователя только имя (путь) файла, вызвать `Solutions.FindMissingDeafChars` и вывести результат, преобразовав массив в строку конструктором `new string(res)`.
 
 ### Тестирование
+<img width="358" height="82" alt="image" src="https://github.com/user-attachments/assets/7e1f433c-c2af-4fa9-ad59-c9fe5577d933" />
+
+<img width="339" height="138" alt="image" src="https://github.com/user-attachments/assets/e8626312-9194-4426-a050-b8e842ad229c" />
 
 
 
@@ -181,6 +187,8 @@
 8. В `Program.cs` в методе `Task5()` запросить у пользователя только имя (путь) файла и вызвать `Solutions.PrintWinners(path)`.
 
 ### Тестирование
+<img width="396" height="103" alt="image" src="https://github.com/user-attachments/assets/a724853c-dd40-47ef-85a6-9de48262cf7d" />
+<img width="303" height="141" alt="image" src="https://github.com/user-attachments/assets/8fd209f3-8eeb-49d0-9b29-46f68cb8a45d" />
 
 
 
@@ -234,3 +242,5 @@ double (явная) результатом является копейки, пе
 14. Негативные проверки (копейки больше 99, вычитание из меньшей суммы, декремент нулевой суммы) выполнять в блоках `try/catch`, выводя тип возникшего исключения, чтобы программа продолжала работать.
 
 ### Тестирование
+<img width="815" height="469" alt="image" src="https://github.com/user-attachments/assets/fb361971-afe1-4ef2-8b0c-ac71c1585abd" />
+
